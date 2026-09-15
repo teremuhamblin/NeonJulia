@@ -1,6 +1,11 @@
-###### README.md >> markdown 
+###### README.md >> markdown
+
+---
+
 # 📝 NeonJulia ⚡
 - NeonJulia est une **mini‑webapp** néon servie par un `micro‑serveur HTTP en Julia`.
+
+---
 
 ### 🚀 Lancer le projet
 - Installe les dépendances et lance :
@@ -15,8 +20,9 @@ http://localhost:8080
 
 >dans ton navigateur.
 
-📜 Licence
-- GPL 3.0 LICENSE
+---
 
+### 📜 Licence
+- GPL 3.0 LICENSE
 
 ---
