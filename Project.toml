@@ -1,0 +1,7 @@
+name = "NeonJulia"
+uuid = "11111111-2222-3333-4444-555555555555"
+authors = ["The MadDoG.tmdg"]
+version = "1.0.0"
+
+[deps]
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
