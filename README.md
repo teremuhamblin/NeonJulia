@@ -20,8 +20,6 @@ http://localhost:8080
 
 >dans ton navigateur.
 
----
-
 ### 📜 Licence
 - GPL 3.0 LICENSE
 
