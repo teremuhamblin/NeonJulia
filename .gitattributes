@@ -1,0 +1,45 @@
+###############################################
+# ⚡ NEONJULIA — GITATTRIBUTES HYPERSPEC v3.2 #
+###############################################
+
+# ╔══════════════════════════════════════════╗
+# ║        📦 NORMALISATION GLOBALE          ║
+# ╚══════════════════════════════════════════╝
+* text=auto eol=lf
+
+# ╔══════════════════════════════════════════╗
+# ║        🎨 FICHIERS MARKDOWN              ║
+# ╚══════════════════════════════════════════╝
+*.md text
+*.md linguist-language=Markdown
+
+# ╔══════════════════════════════════════════╗
+# ║        🧬 FICHIERS JULIA                 ║
+# ╚══════════════════════════════════════════╝
+*.jl linguist-language=Julia
+*.jl text
+
+# ╔══════════════════════════════════════════╗
+# ║        🖼️ ASSETS / IMAGES                ║
+# ╚══════════════════════════════════════════╝
+*.svg text
+*.png binary
+*.jpg binary
+
+# ╔══════════════════════════════════════════╗
+# ║        🔐 SÉCURITÉ / SENSIBLES           ║
+# ╚══════════════════════════════════════════╝
+*.key binary
+*.pem binary
+*.crt binary
+
+###############################################
+# 🛰️ TABLEAU DE CLASSIFICATION
+#
+# | Extension | Type Git | Linguist | Traitement |
+# |----------|-----------|----------|------------|
+# | .jl      | text      | Julia    | analyse    |
+# | .md      | text      | Markdown | rendu      |
+# | .svg     | text      | SVG      | diff OK    |
+# | .png     | binary    | Image    | diff OFF   |
+###############################################
