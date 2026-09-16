@@ -1,0 +1,22 @@
+###############################################
+# 🟪 NEONJULIA — GITKEEP MINIMAL NEON v1.0   #
+###############################################
+
+# Ce fichier existe uniquement pour permettre
+# à Git de versionner un dossier vide.
+
+# ╔══════════════════════════════════════════╗
+# ║        📁 DOSSIER CONCERNÉ               ║
+# ╚══════════════════════════════════════════╝
+# - assets/
+# - logs/
+# - tmp/
+# - data/
+
+###############################################
+# 🛰️ SCHÉMA
+#
+#   [dossier/] → vide
+#        │
+#        └── .gitkeep  → 🟢 Git track
+###############################################
