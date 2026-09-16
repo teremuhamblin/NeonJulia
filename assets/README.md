@@ -1,5 +1,3 @@
----
-
 🟪 assets/README.md (simple comme demandé)
 
 `md
@@ -20,9 +18,8 @@ Les assets sont utilisés dans :
 - Les pages GitHub
 
 🛰️ Schéma
-`
+```text
 [assets/] → [docs] → [README] → [Brand]
-`
-`
+```
 
 ---
