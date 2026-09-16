@@ -1,0 +1,67 @@
+###############################################
+# 🔥 NEONJULIA — GITIGNORE CYBER‑CLEAN v4.0  #
+###############################################
+
+# ╔══════════════════════════════════════════╗
+# ║              📁 STRUCTURE                ║
+# ╚══════════════════════════════════════════╝
+# Ce fichier ignore tout ce qui n’est pas
+# strictement nécessaire au dépôt GitHub.
+
+# ┌──────────────────────────────────────────┐
+# │ 🧠 LOGIQUE GLOBALE                       │
+# └──────────────────────────────────────────┘
+# - Nettoyage des artefacts Julia
+# - Isolation des environnements
+# - Protection des fichiers sensibles
+# - Optimisation CI/CD
+
+# ╔══════════════════════════════════════════╗
+# ║        🧬 FICHIERS JULIA À IGNORER       ║
+# ╚══════════════════════════════════════════╝
+/Manifest.toml
+/.julia/
+/.julia_history
+/.julia_logs
+
+# ╔══════════════════════════════════════════╗
+# ║        ⚙️ BUILD / COMPILATION            ║
+# ╚══════════════════════════════════════════╝
+/build/
+/deps/
+/tmp/
+/logs/
+
+# ╔══════════════════════════════════════════╗
+# ║        🧪 TESTS / COVERAGE               ║
+# ╚══════════════════════════════════════════╝
+/coverage/
+/*.cov
+
+# ╔══════════════════════════════════════════╗
+# ║        🧩 OS / ÉDITEURS                  ║
+# ╚══════════════════════════════════════════╝
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ╔══════════════════════════════════════════╗
+# ║        🔐 SÉCURITÉ                       ║
+# ╚══════════════════════════════════════════╝
+*.key
+*.pem
+*.crt
+*.env
+.env.*
+
+###############################################
+# 🛰️ SCHEMA VISUEL
+#   (Ce que Git voit / Ce qu’il ignore)
+#
+#   [src/]        → 🟢 track
+#   [docs/]       → 🟢 track
+#   [build/]      → 🔴 ignore
+#   [.julia/]     → 🔴 ignore
+#   [.env]        → 🔴 ignore
+###############################################
