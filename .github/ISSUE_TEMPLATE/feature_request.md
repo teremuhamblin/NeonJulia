@@ -20,3 +20,20 @@ Décris la logique ou l’API souhaitée.
 ---
 
 ## 📐 Schéma conceptuel
+```text
+[besoin] >> [concept] >> [implementation] >> [bénéfice]
+```
+
+---
+
+## 📊 Impact
+| Domaine | Impact |
+|--------|--------|
+| Performance | |
+| UX | |
+| Codebase | |
+| Compatibilité | |
+
+---
+
+Merci pour ta vision futuriste.
