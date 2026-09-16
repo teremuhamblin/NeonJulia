@@ -72,7 +72,7 @@ http://localhost:8080
 - Tables neon  
 - Schémas ASCII  
 
-🛰️ Schéma visuel
+### 🛰️ Schéma visuel
 ```text
 [NeonGlow] → [UI] → [Docs] → [Brand]
 ```
@@ -82,7 +82,7 @@ http://localhost:8080
 ### 🧩 Architecture interne
 > Détaillée dans docs/ARCHITECTURE.md
 
-🏗️ Structure
+### 🏗️ Structure
 ```text
 [Request] → [Parser] → [Router] → [Handler] → [Response]
 ```
