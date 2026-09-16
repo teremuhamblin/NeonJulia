@@ -24,3 +24,6 @@ Explique ce qui peut être amélioré.
 ---
 
 ## 🧬 Diagramme
+```text
+[Code actuel] → [Problème] → [Solution] → [Code optimisé]
+```
